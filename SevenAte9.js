@@ -15,6 +15,14 @@ function sevenAte9(str) {
     }
     
     return arr.join("")
+
+    
   }
 
-  
+  console.log(sevenAte9("797979"))
+
+
+
+// solution -2
+return str.replace(/79(?=7)/g,"7");
+
